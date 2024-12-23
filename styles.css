@@ -1,0 +1,428 @@
+
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+    /* overflow-x: hidden; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.header {
+    position: sticky    ;
+    top: 0;
+    background-color: #333 ;
+
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li {
+    display: inline;
+}
+
+.header ul li a {
+    color: #fff;
+}
+
+
+.hero {
+    background-image: url('freepik__3d-model-octane-render-volumetric-highly-detailed-__55840.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: rgba(255,255,255,1);
+
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+
+
+.societies {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.societies h2 {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 10px;
+}
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+/* ----- */
+
+
+
+
+.form-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-section h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-section label {
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-section input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-section button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.form-section button:hover {
+    background-color: #0056b3;
+}
+
+.form-section p {
+    margin-top: 20px;
+}
+
+.form-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-section a:hover {
+    text-decoration: underline;
+}
+
+
+.new{
+   margin-left :1200px ;
+   /* padding-left: 10px ; */
+}
+
+.button{
+    border:1px solid white ;
+    padding:5px ;
+    background-color:rgb(62, 110, 161,1) ;
+}
+.button:hover{
+    border:2px solid white; 
+    background-color:rgb(62, 110, 161,.5) ; 
+    box-shadow: 0px 0px 3px aliceblue;
+
+}
+.button:active{
+    background-color: rgb(52, 52, 177);
+}
+
+.new1{
+    margin-left:1300px ;
+}
+
+
+
+
+.flat-types {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.flat-category {
+    margin-bottom: 40px;
+}
+
+.flat-category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+
+details {
+    margin-top: 10px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.flat-details {
+    padding-top: 10px;
+}
+
+.flat-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.flat-details ul li {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+
+.flat-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.flat-gallery img {
+    width: 275px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.flat-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 15px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p, .footer-section a {
+    color: #bbb;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.footer-section a:hover {
+    color: #007bff;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #bbb;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    background-color: #222;
+    padding: 10px;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 15px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p, .footer-section a {
+    color: #bbb;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.footer-section a:hover {
+    color: #007bff;
+}
+
+/* Quick Links */
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #bbb;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    background-color: #222;
+    padding: 10px;
+}
+
+
+
+
+
